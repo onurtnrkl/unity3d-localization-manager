@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"
+standalone="yes"?>
+<Root>
+  <Fruits>
+    <Apple>Elma</Apple>
+    <Raspberry>Ahududu</Raspberry>
+    <Banana>Muz</Banana>
+  </Fruits>
+</Root>
