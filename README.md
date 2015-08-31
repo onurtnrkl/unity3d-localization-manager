@@ -1,10 +1,4 @@
 # Localization-Unity3D
-## Features
-
-* Control your vehicle like subway surfers.
-* Smooth lane changing with speed.
-* Player acceleration.
-* Editable lane size and numbers.
 
 # Usage
 
