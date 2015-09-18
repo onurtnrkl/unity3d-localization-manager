@@ -6,7 +6,7 @@
 * Load your language and use as following.
 
 ```cs
-LanguageManager.Instance.LoadLanguage(English);
+LanguageManager.Instance.LoadLanguage("English");
 fruit1.text = LanguageManager.Instance.GetString("Fruits/Apple");
 ```
 
