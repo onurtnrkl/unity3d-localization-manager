@@ -1,13 +1,13 @@
-# Localization-Unity3D
+# unity3d-localization-manager
 
 # Usage
 
-* Create xml file for setting languages.
+* Create json localization file with editor window(Windows/Localization Editor).
 * Load your language and use as following.
 
 ```cs
-LanguageManager.Instance.LoadLanguage("English");
-fruit1.text = LanguageManager.Instance.GetString("Fruits/Apple");
+LocalizationManager.LoadLanguage("en_US");
+fruit.text = LocalizationManager.GetLocalizedText("apple");
 ```
 
 
