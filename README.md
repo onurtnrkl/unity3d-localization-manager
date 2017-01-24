@@ -2,7 +2,7 @@
 
 # Usage
 
-* Create json localization file with editor window(Windows/Localization Editor).
+* Create json localization file with editor window(Window/Localization Editor).
 * Load your language and use as following.
 
 ```cs
