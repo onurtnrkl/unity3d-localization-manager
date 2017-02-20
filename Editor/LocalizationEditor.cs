@@ -1,3 +1,4 @@
+#region Lisence
 /*================================================================
 Product:    LocalizationManager
 Developer:  Onur Tanrıkulu
@@ -6,6 +7,7 @@ Date:       24/01/2017 17:40
 
 Copyright (c) 2017 Onur Tanrikulu. All rights reserved.
 ================================================================*/
+#endregion
 
 using UnityEngine;
 using UnityEditor;
@@ -13,13 +15,10 @@ using System.IO;
 
 public class LocalizationEditor : EditorWindow
 {
-   #region Fields
     private static string localizationDirectory;
     private string languageCode;
     public LocalizationData localizationData;
-   #endregion
  
-   #region Methods
     [MenuItem("Window/Localization Editor")]
     private static void Inıt()
     {
@@ -97,7 +96,6 @@ public class LocalizationEditor : EditorWindow
     {
         localizationData = new LocalizationData ();
     }
-   #endregion
 }
 
 
