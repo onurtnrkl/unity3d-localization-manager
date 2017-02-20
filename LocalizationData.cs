@@ -1,3 +1,4 @@
+#region License
 /*================================================================
 Product:    LocalizationManager
 Developer:  Onur Tanrıkulu
@@ -6,6 +7,7 @@ Date:       24/01/2017 17:17
 
 Copyright (c) 2017 Onur Tanrikulu. All rights reserved.
 ================================================================*/
+#endregion
 
 using System;
 
