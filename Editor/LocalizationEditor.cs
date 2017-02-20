@@ -1,4 +1,4 @@
-#region Lisence
+#region License
 /*================================================================
 Product:    LocalizationManager
 Developer:  Onur Tanrıkulu
