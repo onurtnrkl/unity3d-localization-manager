@@ -1,3 +1,4 @@
+#region License
 /*================================================================
 Product:    LocalizationManager
 Developer:  Onur Tanrıkulu
@@ -6,6 +7,7 @@ Date:       24/01/2017 16:14
 
 Copyright (c) 2017 Onur Tanrikulu. All rights reserved.
 ================================================================*/
+#endregion
 
 using UnityEngine;
 using System.Collections;
@@ -14,11 +16,8 @@ using System.IO;
 
 public static class LocalizationManager
 {
-   #region Fields
     private static Dictionary<string, string> localizedTexts;
-   #endregion
-
-   #region Properties
+   
     /// <summary>
     /// Gets the localized text.
     /// </summary>
@@ -39,9 +38,7 @@ public static class LocalizationManager
 
         return text;
     }
-   #endregion
- 
-   #region Methods
+
     /// <summary>
     /// Loads language file from harddrive.
     /// </summary>
@@ -69,5 +66,4 @@ public static class LocalizationManager
             Debug.LogError("Cannot load file: " + filePath);
         }
     }
-   #endregion
 }
